@@ -34,8 +34,11 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'teaching' %}
+        {% if page.collection == 'teaching' and page.type == 'course' %}
+        {% comment %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% endcomment %}
+        <p> <b>{{ page.semester }}:</b> {{ page.time }}, {{ page.venue }}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -53,6 +56,19 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        
+       {% if page.collection == 'teaching' and page.type == 'course' %}
+        {% if page.github %}
+        <a href="{{ page.github }}" target="_blank" class="btn btn--mcw"><i class="fab fa-fw fa-github"></i><span> Class Resources at GitHub</span></a> &nbsp; &nbsp; 
+        {% endif %}
+        {% if page.syllabus_pdf %}
+        <a href="{{ page.syllabus_pdf }}" target="_blank" class="btn btn--mcw"><i class='fas fa-solid fa-file-pdf'></i><span> Syllabus (pdf)</span></a> &nbsp; &nbsp; 
+        {% endif %}
+        {% if page.slides %}
+        <a href="{{ page.slides }}" target="_blank" class="btn btn--mcw"><i class="fab fa-google-drive"></i><span> Slides</span></a>
+        {% endif %}
+        {% endif %}
+        
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

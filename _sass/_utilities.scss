@@ -233,6 +233,11 @@ body:hover .visually-hidden button {
     color: $linkedin-color;
   }
 
+   // MCW
+   .fa-mastodon {
+    color: $mastodon-color;
+  }
+
   .fa-pinterest,
   .fa-pinterest-p,
   .fa-pinterest-square {
@@ -282,6 +287,29 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+
+  // below added by MCW
+
+  // from https://github.com/jayrobwilliams/jayrobwilliams.github.io/blob/0ff8195d4d91963c8b4ed9e3a0aeb14c09bce1b5/_sass/_utilities.scss
+  .ai-orcid,
+  .ai-orcid-square {
+    color: $orcid-color;
+  }
+
+  .ai-google-scholar,
+  .ai-google-scholar-square {
+    color: $google-scholar-color;
+  }
+
+  .ai-doi,
+  .ai-doi-square {
+    color: $doi-color;
+  }
+
+  .fa-graduation-cap {
+    color: $google-scholar-color;
+  }
+
 }
 
 

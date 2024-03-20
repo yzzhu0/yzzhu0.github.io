@@ -1,16 +1,17 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Recent Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div>
+<p>Older presentations can be found via <a href="https://www.slideshare.net/mweigle/presentations">my Slideshare profile</a>.</p>
+</div>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
+<div class="grid__wrapper">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% include archive-single-talk.html type="grid" %}
 {% endfor %}
+</div>
+

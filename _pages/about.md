@@ -15,7 +15,7 @@ I am currently a Senior Research Scientist at ByteDance Inc. in Seattle, WA. Bef
 
 
 ### News
-- [Nov, 2023] We released our paper "MoMA", general object personalization.  <a href='https://moma-adapter.github.io/' target='_blank' class='btn btn--mcwarxiv'><img src='https://img.shields.io/badge/project_page-green?style=flat'/></a>
+- [Apr, 2024] We released our paper "MoMA", general object personalization.  <a href='https://moma-adapter.github.io/' target='_blank' class='btn btn--mcwarxiv'><img src='https://img.shields.io/badge/project_page-green?style=flat'/></a>
 - [Nov, 2023] We released our paper "Magic Dance".  <a href='https://boese0601.github.io/magicdance/' target='_blank' class='btn btn--mcwarxiv'><img src='https://img.shields.io/badge/project_page-green?style=flat'/></a>
 - [Apr, 2023] We launched the "AI Xianxia" (仙侠) effect in Douyin.  <a href='https://www.tiktok.com/@yoyo.0222/video/7252752485704535301' target='_blank' class='btn btn--mcwarxiv'><img src='https://img.shields.io/badge/video-black?style=flat&logo=tiktok'/></a> 
 - [Feb, 2023] One paper is accepted to CVPR 2023.

@@ -11,7 +11,7 @@ twitter-color: "#55acee"
 github-color: "#171516"
 blogger-color: "#F37100"
 ---
-I am currently a Senior Research Scientist at ByteDance Inc. in Seattle, WA. Before that, I was a Ph.D. student in [Rutgers University](http://www.rutgers.edu/), supervised by [Professor Ahmed Elgammal](https://www.cs.rutgers.edu/~elgammal/Home.html) during 2015 - 2020. My research interests include GenAI, Image Generation and Editting. We are actively looking for full-time research scientists / engineers as well as research interns on multimodal generation. Drop me an email (zyzflying at gmail dot com) if you are interested! For more information on my education and work experience, see my [CV](https://weiglemc.github.io/cv/)
+I am currently a Senior Research Scientist at ByteDance Inc. in Seattle, WA. Before that, I was a Ph.D. student in [Rutgers University](http://www.rutgers.edu/), supervised by [Professor Ahmed Elgammal](https://www.cs.rutgers.edu/~elgammal/Home.html) during 2015 - 2020. My research interests include GenAI, Image Generation and Editting. We are actively looking for full-time research scientists / engineers as well as research interns on multimodal generation. Drop me an email (zyzflying at gmail dot com) if you are interested! For more information on my education and work experience, see my [CV](https://yzzhu0.github.io/cv/)
 
 
 ### News

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yizhe Zhu"
 title_separator          : "-"
 name                     : &name "Yizhe Zhu"
-description              : &description "Senior Research Scientist"
+description              : &description "Member of Technical Staff"
 url                      : https://yzzhu0.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yzzhu0/yzzhu0.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Yizhe(Ethan) Zhu"
   avatar           : "profile_zhu.jpg"
-  bio              : "Senior Research Scientist"
+  bio              : "Member of Technical Staff"
   location         : 
-  employer         : "Bytedance/Tiktok"
+  employer         : "Reka AI"
   employeruri      : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=hPXUR0cAAAAJ&hl=en"
